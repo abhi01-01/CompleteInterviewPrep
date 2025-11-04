@@ -4,7 +4,7 @@
 ```cpp
 class TopDown{
     
-}
+};
 ```
 
 > Time Complexity = O()
@@ -18,7 +18,7 @@ class TopDown{
 ```cpp
 class TopDown{
     
-}
+};
 ```
 
 > Time Complexity = O()
@@ -32,7 +32,7 @@ class TopDown{
 ```cpp
 class BottomUp{
 
-}
+};
 ```
 
 > Time Complexity = O()
@@ -46,7 +46,7 @@ class BottomUp{
 ```cpp
 class BottomUp{
 
-}
+};
 ```
 
 > Time Complexity = O()
