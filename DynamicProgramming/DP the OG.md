@@ -267,3 +267,23 @@
 * https://leetcode.com/problems/least-operators-to-express-number/
 * https://leetcode.com/problems/largest-multiple-of-three/
 * https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/
+
+
+This “easy” problem is:
+Tree
+
+DFS
+
+Multiset merging (small-to-large)
+
+Perfect square number theory
+
+Square-free factorization
+
+Counting pairs in subtrees
+
+O(n log n) required for 10⁵ nodes
+
+Needs clean modulo logic
+
+Needs memory-safe merging

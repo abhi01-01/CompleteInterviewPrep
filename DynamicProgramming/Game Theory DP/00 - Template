@@ -1,4 +1,4 @@
-### GFG - [Problem](Link)
+## GFG - [Problem](Link)
 
 * TopDown Approach - Without Memoization
 ```cpp
@@ -27,7 +27,7 @@ class TopDown{
 
 ---
 
-* Bottom Up Approach -- With 1D table
+* Bottom Up Approach -- Tabulation / Loop Method
 
 ```cpp
 class BottomUp{
@@ -41,14 +41,31 @@ class BottomUp{
 
 ---
 
-* Bottom Up Approach -- Without 1D table
+* Bottom Up Approach -- Optimized
 
 ```cpp
 class BottomUp{
-
+// Can't be optimized
 };
 ```
 
 > Time Complexity = O()
 
 > Space Complexity = O()
+
+---
+
+* Brainteaser
+
+Mathematical Observation (1-line insight)
+
+```cpp
+class Solution {
+
+};
+```
+
+
+> Time Complexity = O(1)
+
+> Space Complexity = O(1)

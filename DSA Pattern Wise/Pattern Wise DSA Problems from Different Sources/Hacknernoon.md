@@ -423,16 +423,61 @@
 >
 >---
 >> * [Top ‘K’ Numbers (easy)]()
->>```cpp
->>```
->> Time Complesity - `O()`<br>
->> Space Complexity - `O()`
+>> ```cpp
+>> class Solution{
+>> public :
+>>     vector<int> findKthLargest(vector<int>& nums, int k) {
+>>         priority_queue<int, vector<int>, greater<int>> minHeap ;
+>>         for(auto const& num : nums){
+>>             minHeap.push(num) ;
+>>             if(minHeap.size() > k)
+>>                 minHeap.pop() ; 
+>>         }
+>>         vector<int> result ;
+>>         while(!minHeap()){
+>>             int ele = minHeap.top() ;
+>>             result.push_back(ele) ;
+>>             minHeap.pop() ;
+>>         }
+>>         return result ;
+>>     }
+>> };
+>> ```
+>> Time Complesity - `O(NLogK)`<br>
+>> Space Complexity - `O(N)`
 >---
->> * [Top ‘K’ Frequent Numbers (medium)]()
->>```cpp
->>```
->> Time Complesity - `O()`<br>
->> Space Complexity - `O()` 
+>> * [Top ‘K’ Frequent Numbers (medium)](https://leetcode.com/problems/top-k-frequent-elements/description/)
+>> ```cpp
+>> class Solution{
+>> public :
+>>     int topKFrequentElements(vector<int>& nums, int k){
+>>         unordered_map<int, int> count ;
+>>         for(auto const& num : nums){
+>>             count[num]++ ;
+>>         }
+>>         // <frequency, num>
+>>         using _pair = pair<int, int> ;
+>>         priority_queue<_pair, vector<_pair>, greater<_pair>> minHeap ;
+>> 
+>>         for(auto const& p : count){
+>>             minHeap.push({p.second, p.first}) ;
+>>             if(minHeap.size() > k){
+>>                 minHeap.pop() ;
+>>             }
+>>         }
+>>         vector<int> result ;
+>>         
+>>         while(!minHeap.empty()){
+>>             int ele = minHeap.top().second ;
+>>             result.push_back(ele) ;
+>>             minHeap.pop() ;
+>>         }
+>>         return result ;
+>>     }
+>> };
+>> ```
+>> Time Complesity - `O(NLogK)`<br>
+>> Space Complexity - `O(N)` 
 >---
 ---
 <br>
