@@ -35,7 +35,7 @@ public:
 > ### Approach/Algorithm
 >> Observe that we don't need to know the exact count of the vowels to solve this problem; we only need to know the parity of each vowel (whether it appears an even or odd number of times). The parity of each vowel can be stored in a boolean or bit, where 0 means even and 1 means odd. We need five bits to track the parity of all five vowels `(a, e, i, o, u)`, resulting in `2`<sup>`5`</sup> = `32` possible states.<br>
 >><br>
->> We can assign the first bit to a, the second to e, and so on. The state of the vowels can be represented as a binary string. For instance, `00000` means all vowels have even counts, while `10000` means only a has an odd count.<br>
+>> We can assign the first bit to a, the second to e, and so on. The state of the vowels can be represented as a binary string. For instance, `00000` means all vowels have even counts, while `00001` means only `a` has an odd count.<br>
 >><br>
 >>By converting these binary states to integers, we can assign values to the vowels: `a` = `1`, `e` = `2`, `i` = `4`, `o` = `8`, and `u`= `16`. If both a and i have odd counts, their total value would be `1` + `4` = `5`. A total value of `0` means all vowels have even counts.<br>
 >> ![Leetcode 1371](image-1.png)

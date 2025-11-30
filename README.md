@@ -4,20 +4,138 @@
 DSAPREPTOPICWISE(Root)
 │
 ├── .git
+├── centralImageRepo
 ├── Company Wise Questions
 |   ├── Visa Questions
 |   |   ├── Reverse String
 |   |   └── Find Missing Value from Each Square
 |   └── IBM Questions
 |       ├── Minimum Operations to sort Array
-|       └── Get All Error Codes   
+|       └── Get All Error Codes
+├── Design Patterns   
+│   ├── Core OOP or GoF Desighn Patterns
+│   │   ├── Creational
+│   │   │   ├── Singleton
+│   │   │   ├── Factory Method 
+│   │   │   ├── Abstract Factory
+│   │   │   ├── Builder
+│   │   │   └── Prototype
+│   │   ├── Structural
+│   │   │   ├── 
+│   │   │   ├──  
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └── 
+│   │   └── Behavioral
+│   │       ├── 
+│   │       ├──   
+│   │       ├──  
+│   │       ├── 
+│   │       └── 
+│   │── Enterprise Architectural Patterns
+│   │   ├── 
+│   │   │   ├── 
+│   │   │   ├──   
+│   │   │   ├──  
+│   │   │   ├── 
+│   │   │   └── 
+│   │   ├── 
+│   │   │   ├── 
+│   │   │   ├──  
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └── 
+│   │   └── 
+│   │       ├── 
+│   │       ├──   
+│   │       ├──  
+│   │       ├── 
+│   │       └── 
+│   │── Intergration Patterns (Messaging + Distributed Systems)
+│   │   ├── 
+│   │   │   ├── 
+│   │   │   ├──   
+│   │   │   ├──  
+│   │   │   ├── 
+│   │   │   └── 
+│   │   ├── 
+│   │   │   ├── 
+│   │   │   ├──  
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └── 
+│   │   └── 
+│   │       ├── 
+│   │       ├──   
+│   │       ├──  
+│   │       ├── 
+│   │       └── 
+│   │── Concurrency + Performance Patterns
+│   │   ├── 
+│   │   │   ├── 
+│   │   │   ├──   
+│   │   │   ├──  
+│   │   │   ├── 
+│   │   │   └── 
+│   │   ├── 
+│   │   │   ├── 
+│   │   │   ├──  
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └── 
+│   │   └── 
+│   │       ├── 
+│   │       ├──   
+│   │       ├──  
+│   │       ├── 
+│   │       └── 
+│   └── Cloud, Resilience Reliability Patterns
+│       ├── 
+│       │   ├── 
+│       │   ├──   
+│       │   ├──  
+│       │   ├── 
+│       │   └── 
+│       ├── 
+│       │   ├── 
+│       │   ├──  
+│       │   ├── 
+│       │   ├── 
+│       │   └── 
+│       └── 
+│           ├── 
+│           ├──   
+│           ├──  
+│           ├── 
+│           └── 
+├── DS Patterns with template
+│   ├── Backtracking
+│   ├── Binary Search
+│   ├── DSU
+│   ├── Dynamic Programming
+│   ├── Graphs
+│   ├── Greedy
+│   ├── HashMap or HashSet
+│   ├── Heaps or Priority Queue
+│   ├── Intervals
+│   ├── Linked List
+│   ├── Queue
+│   ├── Sliding Window
+│   ├── Stack
+│   ├── String
+│   ├── Trees
+│   ├── Two Pointer
+│   ├── Complete List of DS in CS
+│   ├── Top 50 Patterns Practice
+│   └── Top 50 Patterns (Solve these 1st)
 ├── DSA Pattern Wise
 │   ├── 1 - Prefix Sum 
 │   │   ├── 0 - Important Notes
 │   │   ├── 1 - Range Sum Query - Immutable  
 │   │   ├── 2 - Continguous Subarray
 │   │   ├── 3 - Find the Longest Substring Containing Vowels in Even Counts
-│   │   └── 4 - Find Longest Awesome Substring 
+│   │   ├── 4 - Find Longest Awesome Substring 
+│   │   └── 5 - Number of Wonderful Substrings
 │   ├── 2 - Two Pointers
 │   │   ├── 1 - Two Sum II
 │   │   ├── 2 - 3 Sum
@@ -48,8 +166,9 @@ DSAPREPTOPICWISE(Root)
 │   │   │   ├── GFG - Allocate Minimum Pages
 │   |   |   ├── L - 2226 - Maximum Candies Allocated to K Children
 │   │   │   ├── L - 374 - Guess Number Higher or Lower
-│   │   │   ├──
-│   │   │   ├──
+│   │   │   ├── GFG - Agressive Cows
+│   │   │   ├── GFG - The Painter's Partition Problem-II
+│   │   │   ├── L - 1552 - Magnetic Force Between Two Balls
 │   │   │   └── GFG - Minimize Max Distance to Gas Station
 │   │   ├── Binary Search on Rotated or Modified Sorted Array
 │   │   │   ├── L - 33 - Search in Rotated Sorted Array
@@ -66,8 +185,6 @@ DSAPREPTOPICWISE(Root)
 │   │   ├── Peak or Valley Search
 │   │   │   ├── L - 162 - Peak Element
 │   │   │   └── L - 1095 - Find in Mountain Array
-
-
 │   ├── 10 - Binary Tree Traversal
 │   │   ├──
 │   │   ├──
@@ -95,25 +212,25 @@ DSAPREPTOPICWISE(Root)
 ├── Dynamic Programming
 |   ├── 1D DP
 │   │   ├── Instructions to Solve DP
-│   │   ├── L - - Fibonacci Number
-│   │   ├── L - - Filling Bucket
-│   │   ├── L - - Consecutive 1's not Allowed
-│   │   ├── L - - N-th Tribonacci Number
-│   │   ├── L - - Count N of Hoops
-│   │   ├── L - - Climbing Stairs
-│   │   ├── L - - Min Cost Climbing Stairs
-│   │   ├── L - - House Robber
-│   │   ├── L - - House Robber II
-│   │   ├── L - - Solving Question with Brainpower
-│   │   ├── L - - Count ways to build good strings
-│   │   ├── L - - Minimum steps to minimize n as per given condition
-│   │   ├── L - - Minimum no of days to eat N oranges
-│   │   ├── L - - Maximum the cut segments
-│   │   ├── L - - Minimum cost for tickets
-│   │   ├── L - - Frog Jump
-│   │   ├── L - - Geek Jump with K steps
-│   │   ├── L - - Climbing Stairs II
-│   │   ├── L - - Taking Maximun energy from the mystic Dungeon
+│   │   ├── L - Fibonacci Number
+│   │   ├── L - Filling Bucket
+│   │   ├── L - Consecutive 1's not Allowed
+│   │   ├── L - N-th Tribonacci Number
+│   │   ├── L - Count N of Hoops
+│   │   ├── L - Climbing Stairs
+│   │   ├── L - Min Cost Climbing Stairs
+│   │   ├── L - House Robber
+│   │   ├── L - House Robber II
+│   │   ├── L - Solving Question with Brainpower
+│   │   ├── L - Count ways to build good strings
+│   │   ├── L - Minimum steps to minimize n as per given condition
+│   │   ├── L - Minimum no of days to eat N oranges
+│   │   ├── L - Maximum the cut segments
+│   │   ├── L - Minimum cost for tickets
+│   │   ├── L - Frog Jump
+│   │   ├── L - Geek Jump with K steps
+│   │   ├── L - Climbing Stairs II
+│   │   ├── L - Taking Maximun energy from the mystic Dungeon
 │   │   ├── L - 2944 - Minimum Number of Coins for Fruits
 │   │   ├── L - 55 - Jump Game
 │   │   ├── L - 45 - Jump Game II
@@ -140,30 +257,39 @@ DSAPREPTOPICWISE(Root)
 │   │   └──  
 │   ├── Graph DP
 |   └── DP the OG sheet
-│──
-│  
-|
-│   ├──
-│   │   ├── 
-│   │   └── 
-│   │── 
-│   │   ├── 
-│   │   ├── 
-│   │   ├── 
-│   │   └── 
-│   ├── 
-│   │   ├── 
-│   │   ├── 
-│   │   └── 
-│   ├── 
-│   │   ├──
-│   │   ├── 
-│   │   └── 
-│   ├── 
-│   │   ├──
-│   │   ├── 
-│   │   ├── 
-│   │   └── 
+│── Git and GitHub
+│   └── git_commands_cheat_sheet
+├── Java Developer Interview Questions
+│   ├── Coding Qus
+│   ├── Core Java Qus
+│   ├── KafkaKubernetesHibernate
+│   ├── Microservices
+│   └── Spring and SpringBoot
+├── Recursion
+│   ├── Subsets
+│   └── Subsets with Duplicates
+│── Sorting
+│   ├── Count of Smaller Number After self
+│   └── Reverse Pairs
+├── Stack
+│   ├── Next Smaller Element
+│   ├── Next Greater Element 
+│   ├── Next Greater Element I (2 Arrays)
+│   ├── Next Greater Element II
+│   ├── Daily Temperatures
+│   ├── Reverse Substrings Between each pair of Parentheses
+│   ├── Final Price With a Special Discount in Shop
+│   ├── 
+│   └── 
+├── .gitignore
+└── README
+
+
+
+
+
+
+
 │   ├── 
 │   │   ├──
 │   │   ├── 

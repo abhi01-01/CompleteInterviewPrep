@@ -1,1 +1,0 @@
-## GFG - [The Painter's Partition Problem](https://www.geeksforgeeks.org/dsa/painters-partition-problem/)
